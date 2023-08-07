@@ -45,6 +45,7 @@ public class TC_CategoryPage_006 extends BaseClass {
         lp = new LoginPage(driver);
         Thread.sleep(3000);
         lp.logout();
+        driver.quit();
 		
 	}
 

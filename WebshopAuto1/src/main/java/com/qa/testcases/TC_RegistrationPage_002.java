@@ -28,5 +28,7 @@ public class TC_RegistrationPage_002 extends BaseClass {
 		String actualUser=rp.getUser();
 		String expectedUser="mahin@gmail1.com";
 		Assert.assertEquals(actualUser,expectedUser );
+		
+		driver.quit();
 	}
 }

@@ -37,6 +37,25 @@ public class TC_ShoppingCard_007  extends BaseClass {
 	 public void test4() throws InterruptedException {
 		ShoppingCardPage sp=new ShoppingCardPage(driver);
 		sp.goToShoopingCard();
+		Thread.sleep(3000);
+		
+	}
+	
+	@Test(priority=4)
+	 public void test5() throws InterruptedException {
+		ShoppingCardPage sp=new ShoppingCardPage(driver);
+		
+		sp.totalCountry();
+		sp.shoppingCardInfo(15,"1700");
+		
+	}
+	
+	
+	@Test(priority=5)
+    public void doLogOut(){
+        lp = new LoginPage(driver);
+        lp.logout();
+        //driver.quit();
 		
 	}
 	

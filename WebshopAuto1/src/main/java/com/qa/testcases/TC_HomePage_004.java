@@ -51,6 +51,7 @@ public class TC_HomePage_004 extends BaseClass {
     public void doLogOut(){
         lp = new LoginPage(driver);
         lp.logout();
+        driver.quit();
 		
 	}
 }

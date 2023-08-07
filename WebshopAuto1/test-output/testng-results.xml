@@ -1,41 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="28" passed="27" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-07T01:06:22 GMT-11:00" name="Default suite" finished-at="2023-08-07T01:06:43 GMT-11:00" duration-ms="21848">
+  <suite started-at="2023-08-07T03:07:56 GMT-11:00" name="Suite" finished-at="2023-08-07T03:10:08 GMT-11:00" duration-ms="132815">
     <groups>
     </groups>
-    <test started-at="2023-08-07T01:06:22 GMT-11:00" name="Default test" finished-at="2023-08-07T01:06:43 GMT-11:00" duration-ms="21848">
-      <class name="com.qa.testcases.TC_CategoryPage_006">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:22 GMT-11:00" name="setUp" finished-at="2023-08-07T01:06:24 GMT-11:00" duration-ms="2034" status="PASS">
+    <test started-at="2023-08-07T03:07:56 GMT-11:00" name="Test" finished-at="2023-08-07T03:10:08 GMT-11:00" duration-ms="132815">
+      <class name="com.qa.testcases.TC_RegistrationPage_002">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_RegistrationPage_002@7eac9008]" started-at="2023-08-07T03:08:03 GMT-11:00" name="setUp" finished-at="2023-08-07T03:08:04 GMT-11:00" duration-ms="813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:24 GMT-11:00" name="test1" finished-at="2023-08-07T01:06:28 GMT-11:00" duration-ms="4310" status="PASS">
+        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_RegistrationPage_002@7eac9008]" started-at="2023-08-07T03:08:04 GMT-11:00" name="test1" finished-at="2023-08-07T03:08:08 GMT-11:00" duration-ms="4345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="doLogin()[pri:2, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:28 GMT-11:00" name="doLogin" finished-at="2023-08-07T01:06:30 GMT-11:00" duration-ms="1690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method signature="test2()[pri:3, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:30 GMT-11:00" name="test2" finished-at="2023-08-07T01:06:33 GMT-11:00" duration-ms="3558" status="PASS">
+        <test-method signature="test2()[pri:2, instance:com.qa.testcases.TC_RegistrationPage_002@7eac9008]" started-at="2023-08-07T03:08:08 GMT-11:00" name="test2" finished-at="2023-08-07T03:08:10 GMT-11:00" duration-ms="1702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:4, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:33 GMT-11:00" name="test3" finished-at="2023-08-07T01:06:39 GMT-11:00" duration-ms="6138" status="PASS">
+        <test-method signature="checkUser()[pri:3, instance:com.qa.testcases.TC_RegistrationPage_002@7eac9008]" started-at="2023-08-07T03:08:10 GMT-11:00" name="checkUser" finished-at="2023-08-07T03:08:10 GMT-11:00" duration-ms="29" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [mahin@gmail1.com] but found [My account]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [mahin@gmail1.com] but found [My account]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.qa.testcases.TC_RegistrationPage_002.checkUser(TC_RegistrationPage_002.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method signature="doLogOut()[pri:5, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:39 GMT-11:00" name="doLogOut" finished-at="2023-08-07T01:06:43 GMT-11:00" duration-ms="4082" status="PASS">
+        </test-method> <!-- checkUser -->
+        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_RegistrationPage_002@7eac9008]" started-at="2023-08-07T03:08:10 GMT-11:00" name="tearDrop" finished-at="2023-08-07T03:08:10 GMT-11:00" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrop -->
+      </class> <!-- com.qa.testcases.TC_RegistrationPage_002 -->
+      <class name="com.qa.testcases.TC_ShoppingCard_007">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_ShoppingCard_007@1a677343]" started-at="2023-08-07T03:09:18 GMT-11:00" name="setUp" finished-at="2023-08-07T03:09:18 GMT-11:00" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_ShoppingCard_007@1a677343]" started-at="2023-08-07T03:09:18 GMT-11:00" name="test1" finished-at="2023-08-07T03:09:22 GMT-11:00" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="doLogin()[pri:2, instance:com.qa.testcases.TC_ShoppingCard_007@1a677343]" started-at="2023-08-07T03:09:22 GMT-11:00" name="doLogin" finished-at="2023-08-07T03:09:24 GMT-11:00" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="test4()[pri:3, instance:com.qa.testcases.TC_ShoppingCard_007@1a677343]" started-at="2023-08-07T03:09:24 GMT-11:00" name="test4" finished-at="2023-08-07T03:09:28 GMT-11:00" duration-ms="3756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:4, instance:com.qa.testcases.TC_ShoppingCard_007@1a677343]" started-at="2023-08-07T03:09:28 GMT-11:00" name="test5" finished-at="2023-08-07T03:10:07 GMT-11:00" duration-ms="39367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="doLogOut()[pri:5, instance:com.qa.testcases.TC_ShoppingCard_007@1a677343]" started-at="2023-08-07T03:10:07 GMT-11:00" name="doLogOut" finished-at="2023-08-07T03:10:08 GMT-11:00" duration-ms="890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogOut -->
-        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:43 GMT-11:00" name="tearDrop" finished-at="2023-08-07T01:06:43 GMT-11:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_ShoppingCard_007@1a677343]" started-at="2023-08-07T03:10:08 GMT-11:00" name="tearDrop" finished-at="2023-08-07T03:10:08 GMT-11:00" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrop -->
+      </class> <!-- com.qa.testcases.TC_ShoppingCard_007 -->
+      <class name="com.qa.testcases.TC_LoginPage_003">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_LoginPage_003@4116aac9]" started-at="2023-08-07T03:08:10 GMT-11:00" name="setUp" finished-at="2023-08-07T03:08:11 GMT-11:00" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_LoginPage_003@4116aac9]" started-at="2023-08-07T03:08:11 GMT-11:00" name="test1" finished-at="2023-08-07T03:08:15 GMT-11:00" duration-ms="4512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:com.qa.testcases.TC_LoginPage_003@4116aac9]" started-at="2023-08-07T03:08:15 GMT-11:00" name="test2" finished-at="2023-08-07T03:08:17 GMT-11:00" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="checkUser()[pri:3, instance:com.qa.testcases.TC_LoginPage_003@4116aac9]" started-at="2023-08-07T03:08:17 GMT-11:00" name="checkUser" finished-at="2023-08-07T03:08:17 GMT-11:00" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUser -->
+        <test-method signature="test3()[pri:4, instance:com.qa.testcases.TC_LoginPage_003@4116aac9]" started-at="2023-08-07T03:08:17 GMT-11:00" name="test3" finished-at="2023-08-07T03:08:18 GMT-11:00" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_LoginPage_003@4116aac9]" started-at="2023-08-07T03:08:18 GMT-11:00" name="tearDrop" finished-at="2023-08-07T03:08:18 GMT-11:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrop -->
+      </class> <!-- com.qa.testcases.TC_LoginPage_003 -->
+      <class name="com.qa.testcases.TC_CategoryPage_006">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_CategoryPage_006@6ed3ccb2]" started-at="2023-08-07T03:08:58 GMT-11:00" name="setUp" finished-at="2023-08-07T03:08:59 GMT-11:00" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_CategoryPage_006@6ed3ccb2]" started-at="2023-08-07T03:08:59 GMT-11:00" name="test1" finished-at="2023-08-07T03:09:03 GMT-11:00" duration-ms="3870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="doLogin()[pri:2, instance:com.qa.testcases.TC_CategoryPage_006@6ed3ccb2]" started-at="2023-08-07T03:09:03 GMT-11:00" name="doLogin" finished-at="2023-08-07T03:09:04 GMT-11:00" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="test2()[pri:3, instance:com.qa.testcases.TC_CategoryPage_006@6ed3ccb2]" started-at="2023-08-07T03:09:04 GMT-11:00" name="test2" finished-at="2023-08-07T03:09:07 GMT-11:00" duration-ms="2567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:4, instance:com.qa.testcases.TC_CategoryPage_006@6ed3ccb2]" started-at="2023-08-07T03:09:07 GMT-11:00" name="test3" finished-at="2023-08-07T03:09:13 GMT-11:00" duration-ms="6142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="doLogOut()[pri:5, instance:com.qa.testcases.TC_CategoryPage_006@6ed3ccb2]" started-at="2023-08-07T03:09:13 GMT-11:00" name="doLogOut" finished-at="2023-08-07T03:09:18 GMT-11:00" duration-ms="4466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOut -->
+        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_CategoryPage_006@6ed3ccb2]" started-at="2023-08-07T03:09:18 GMT-11:00" name="tearDrop" finished-at="2023-08-07T03:09:18 GMT-11:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDrop -->
       </class> <!-- com.qa.testcases.TC_CategoryPage_006 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.qa.testcases.TC_ProductDetailsPage_005">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_ProductDetailsPage_005@74e52ef6]" started-at="2023-08-07T03:08:36 GMT-11:00" name="setUp" finished-at="2023-08-07T03:08:37 GMT-11:00" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_ProductDetailsPage_005@74e52ef6]" started-at="2023-08-07T03:08:37 GMT-11:00" name="test1" finished-at="2023-08-07T03:08:41 GMT-11:00" duration-ms="4272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="doLogin()[pri:2, instance:com.qa.testcases.TC_ProductDetailsPage_005@74e52ef6]" started-at="2023-08-07T03:08:41 GMT-11:00" name="doLogin" finished-at="2023-08-07T03:08:43 GMT-11:00" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="Quantity()[pri:3, instance:com.qa.testcases.TC_ProductDetailsPage_005@74e52ef6]" started-at="2023-08-07T03:08:43 GMT-11:00" name="Quantity" finished-at="2023-08-07T03:08:57 GMT-11:00" duration-ms="14375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quantity -->
+        <test-method signature="doLogOut()[pri:4, instance:com.qa.testcases.TC_ProductDetailsPage_005@74e52ef6]" started-at="2023-08-07T03:08:57 GMT-11:00" name="doLogOut" finished-at="2023-08-07T03:08:58 GMT-11:00" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOut -->
+        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_ProductDetailsPage_005@74e52ef6]" started-at="2023-08-07T03:08:58 GMT-11:00" name="tearDrop" finished-at="2023-08-07T03:08:58 GMT-11:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrop -->
+      </class> <!-- com.qa.testcases.TC_ProductDetailsPage_005 -->
+      <class name="com.qa.testcases.TC_HomePage_004">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_HomePage_004@62ddbd7e]" started-at="2023-08-07T03:08:18 GMT-11:00" name="setUp" finished-at="2023-08-07T03:08:19 GMT-11:00" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_HomePage_004@62ddbd7e]" started-at="2023-08-07T03:08:19 GMT-11:00" name="test1" finished-at="2023-08-07T03:08:24 GMT-11:00" duration-ms="5045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="doLogin()[pri:2, instance:com.qa.testcases.TC_HomePage_004@62ddbd7e]" started-at="2023-08-07T03:08:24 GMT-11:00" name="doLogin" finished-at="2023-08-07T03:08:25 GMT-11:00" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="checkAllLink()[pri:3, instance:com.qa.testcases.TC_HomePage_004@62ddbd7e]" started-at="2023-08-07T03:08:25 GMT-11:00" name="checkAllLink" finished-at="2023-08-07T03:08:26 GMT-11:00" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllLink -->
+        <test-method signature="checkCategoriesLink()[pri:4, instance:com.qa.testcases.TC_HomePage_004@62ddbd7e]" started-at="2023-08-07T03:08:26 GMT-11:00" name="checkCategoriesLink" finished-at="2023-08-07T03:08:26 GMT-11:00" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCategoriesLink -->
+        <test-method signature="checkFeaturedProduct()[pri:5, instance:com.qa.testcases.TC_HomePage_004@62ddbd7e]" started-at="2023-08-07T03:08:26 GMT-11:00" name="checkFeaturedProduct" finished-at="2023-08-07T03:08:35 GMT-11:00" duration-ms="8767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFeaturedProduct -->
+        <test-method signature="doLogOut()[pri:6, instance:com.qa.testcases.TC_HomePage_004@62ddbd7e]" started-at="2023-08-07T03:08:35 GMT-11:00" name="doLogOut" finished-at="2023-08-07T03:08:36 GMT-11:00" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOut -->
+        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_HomePage_004@62ddbd7e]" started-at="2023-08-07T03:08:36 GMT-11:00" name="tearDrop" finished-at="2023-08-07T03:08:36 GMT-11:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrop -->
+      </class> <!-- com.qa.testcases.TC_HomePage_004 -->
+      <class name="com.qa.testcases.TC_linkTest_001">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_linkTest_001@5bda8e08]" started-at="2023-08-07T03:07:56 GMT-11:00" name="setUp" finished-at="2023-08-07T03:07:58 GMT-11:00" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="linkTest()[pri:0, instance:com.qa.testcases.TC_linkTest_001@5bda8e08]" started-at="2023-08-07T03:07:58 GMT-11:00" name="linkTest" finished-at="2023-08-07T03:08:03 GMT-11:00" duration-ms="4500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTest -->
+        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_linkTest_001@5bda8e08]" started-at="2023-08-07T03:08:03 GMT-11:00" name="tearDrop" finished-at="2023-08-07T03:08:03 GMT-11:00" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDrop -->
+      </class> <!-- com.qa.testcases.TC_linkTest_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

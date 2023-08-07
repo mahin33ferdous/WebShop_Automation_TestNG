@@ -18,6 +18,6 @@ public class BaseClass {
  }
 	@AfterClass 
  public void tearDrop() {
-	 //sdriver.quit();
+	 driver.quit();
  }
 }

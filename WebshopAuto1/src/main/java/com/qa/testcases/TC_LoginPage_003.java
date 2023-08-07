@@ -33,6 +33,7 @@ public class TC_LoginPage_003 extends BaseClass {
 	public void test3() {
 		LoginPage lp=new LoginPage(driver);
 		lp.logout();
+		driver.quit();
 	}
 	
 }
