@@ -28,4 +28,11 @@ public class TC_LoginPage_003 extends BaseClass {
 		String expectedUser="mahin@gmail1.com";
 		Assert.assertEquals(actualUser,expectedUser );
 	}
+	
+	@Test(priority=4)
+	public void test3() {
+		LoginPage lp=new LoginPage(driver);
+		lp.logout();
+	}
+	
 }

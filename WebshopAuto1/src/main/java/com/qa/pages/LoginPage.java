@@ -29,6 +29,11 @@ public class LoginPage extends BaseClass {
 	@FindBy (xpath="//a[@class='account']")
 	WebElement account;
 	
+	@FindBy (xpath="//a[@class='ico-logout']")
+	WebElement logOuitSubmit ;
+	
+	
+	
 	
 	 
 	
@@ -46,6 +51,10 @@ public class LoginPage extends BaseClass {
 	public String getUser() {
 		String acc=account.getText();
 		return acc;
+	}
+	
+	public void logout() {
+		logOuitSubmit.click();
 	}
 }
 	

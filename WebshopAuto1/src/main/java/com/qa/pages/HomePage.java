@@ -50,23 +50,43 @@ public class HomePage extends BaseClass {
 			for(WebElement elements : CategoriesLinks) {
 				System.out.println(elements.getText());
 			}
-		}	
-	public void featuredProducts() throws InterruptedException {
+		}
+		
+		
+//	public void featuredProducts() throws InterruptedException {
+//		int totalProducts=featuredProducts.size();
+//		 
+//		 System.out.println("Featured Products availble: " + totalProducts);
+//		 
+//		 featuredProducts.get(1).findElement(By.xpath(".//input[@class='button-2 product-box-add-to-cart-button']")).click();
+//		 //  add '.' in the start of xpath so it can search within all element
+//		 Thread.sleep(3000);
+//		featuredProducts.get(1).click();
+//		
+//		Thread.sleep(4000);
+//		//title.click();
+//		
+//		
+//	}
+	public void featuredProducts(int index) throws InterruptedException {
 		int totalProducts=featuredProducts.size();
-		 
-		 System.out.println("Featured Products availble: " + totalProducts);
-		 
-		 featuredProducts.get(1).findElement(By.xpath(".//input[@class='button-2 product-box-add-to-cart-button']")).click();
-		 //  add '.' in the start of xpath so it can search within all element
-		 Thread.sleep(3000);
-		featuredProducts.get(1).click();
-		
-		Thread.sleep(4000);
+	 
+      	 System.out.println("Featured Products availble: " + totalProducts);
+	       //  add '.' in the start of xpath so it can search within all element
+		      Thread.sleep(3000);
+	         featuredProducts.get(index).click();		
+  	    	Thread.sleep(4000);
 		//title.click();
-		
-		
-	}
+		 }
+//		 
 		 
-			
+		 
+		 //  add '.' in the start of xpath so it can search within all element
+		
+		//title.click();  
+		
+		
 	}
+			
+	
 	

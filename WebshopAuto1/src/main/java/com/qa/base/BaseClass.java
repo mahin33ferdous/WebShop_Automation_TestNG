@@ -14,6 +14,7 @@ public class BaseClass {
  public void setUp() {
 	 WebDriverManager.chromedriver().setup();
 	 driver=new ChromeDriver();
+	 driver.manage().window().maximize();
  }
 	@AfterClass 
  public void tearDrop() {

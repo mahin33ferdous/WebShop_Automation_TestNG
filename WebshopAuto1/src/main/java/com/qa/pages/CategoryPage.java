@@ -38,5 +38,6 @@ public class CategoryPage extends BaseClass {
 			ProductDetailsPage pp=new ProductDetailsPage(driver);
 			pp.ChangeQuantity(q);
 		}
-
+		
+	
 }

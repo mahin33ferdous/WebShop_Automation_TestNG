@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-06T16:54:52 GMT-11:00" name="Default suite" finished-at="2023-08-06T16:55:13 GMT-11:00" duration-ms="21170">
+  <suite started-at="2023-08-07T01:06:22 GMT-11:00" name="Default suite" finished-at="2023-08-07T01:06:43 GMT-11:00" duration-ms="21848">
     <groups>
     </groups>
-    <test started-at="2023-08-06T16:54:52 GMT-11:00" name="Default test" finished-at="2023-08-06T16:55:13 GMT-11:00" duration-ms="21170">
+    <test started-at="2023-08-07T01:06:22 GMT-11:00" name="Default test" finished-at="2023-08-07T01:06:43 GMT-11:00" duration-ms="21848">
       <class name="com.qa.testcases.TC_CategoryPage_006">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_CategoryPage_006@6989da5e]" started-at="2023-08-06T16:54:52 GMT-11:00" name="setUp" finished-at="2023-08-06T16:54:53 GMT-11:00" duration-ms="1798" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:22 GMT-11:00" name="setUp" finished-at="2023-08-07T01:06:24 GMT-11:00" duration-ms="2034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_CategoryPage_006@6989da5e]" started-at="2023-08-06T16:54:53 GMT-11:00" name="test1" finished-at="2023-08-06T16:55:03 GMT-11:00" duration-ms="10072" status="PASS">
+        <test-method signature="test1()[pri:1, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:24 GMT-11:00" name="test1" finished-at="2023-08-07T01:06:28 GMT-11:00" duration-ms="4310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:2, instance:com.qa.testcases.TC_CategoryPage_006@6989da5e]" started-at="2023-08-06T16:55:03 GMT-11:00" name="test2" finished-at="2023-08-06T16:55:07 GMT-11:00" duration-ms="3095" status="PASS">
+        <test-method signature="doLogin()[pri:2, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:28 GMT-11:00" name="doLogin" finished-at="2023-08-07T01:06:30 GMT-11:00" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="test2()[pri:3, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:30 GMT-11:00" name="test2" finished-at="2023-08-07T01:06:33 GMT-11:00" duration-ms="3558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:3, instance:com.qa.testcases.TC_CategoryPage_006@6989da5e]" started-at="2023-08-06T16:55:07 GMT-11:00" name="test3" finished-at="2023-08-06T16:55:13 GMT-11:00" duration-ms="6165" status="PASS">
+        <test-method signature="test3()[pri:4, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:33 GMT-11:00" name="test3" finished-at="2023-08-07T01:06:39 GMT-11:00" duration-ms="6138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_CategoryPage_006@6989da5e]" started-at="2023-08-06T16:55:13 GMT-11:00" name="tearDrop" finished-at="2023-08-06T16:55:13 GMT-11:00" duration-ms="1" status="PASS">
+        <test-method signature="doLogOut()[pri:5, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:39 GMT-11:00" name="doLogOut" finished-at="2023-08-07T01:06:43 GMT-11:00" duration-ms="4082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOut -->
+        <test-method is-config="true" signature="tearDrop()[pri:0, instance:com.qa.testcases.TC_CategoryPage_006@139982de]" started-at="2023-08-07T01:06:43 GMT-11:00" name="tearDrop" finished-at="2023-08-07T01:06:43 GMT-11:00" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDrop -->

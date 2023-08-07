@@ -9,15 +9,17 @@ import com.qa.base.BaseClass;
 
 public class ProductDetailsPage extends BaseClass {
 	
+	 
+	public ProductDetailsPage(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+	
+
 	 @FindBy(xpath="//input[@class='qty-input']")
 	 WebElement quantity;
 	//input[@type='button']
 	 @FindBy(xpath="//input[@class='button-1 add-to-cart-button']")
 	 WebElement add;
-	 
-	public ProductDetailsPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
-	}
 	
 	public void ChangeQuantity(int q) throws InterruptedException {
 		quantity.clear();
@@ -31,9 +33,10 @@ public class ProductDetailsPage extends BaseClass {
 	public void addQuantity(int q) throws InterruptedException {
 		//quantity.sendKeys(String.valueOf(q));// to sent integer need to use String.valueOf
 		HomePage  hp=new HomePage(driver);
-		hp.featuredProducts.get(3).click();
+		hp.featuredProducts.get(1).click();
 		Thread.sleep(3000);
 		ChangeQuantity(q);
+		Thread.sleep(3000);
 		hp.title.click();
 	}
 
