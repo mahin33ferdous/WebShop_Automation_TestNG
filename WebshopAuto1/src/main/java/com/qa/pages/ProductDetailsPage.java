@@ -19,17 +19,21 @@ public class ProductDetailsPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 	
+	public void ChangeQuantity(int q) throws InterruptedException {
+		quantity.clear();
+		Thread.sleep(3000);
+		quantity.sendKeys(String.valueOf(q));
+		Thread.sleep(3000);
+		add.click();
+	}
+	
 	
 	public void addQuantity(int q) throws InterruptedException {
 		//quantity.sendKeys(String.valueOf(q));// to sent integer need to use String.valueOf
 		HomePage  hp=new HomePage(driver);
 		hp.featuredProducts.get(3).click();
 		Thread.sleep(3000);
-		quantity.clear();
-		Thread.sleep(3000);
-		quantity.sendKeys(String.valueOf(q));
-		Thread.sleep(3000);
-		add.click();
+		ChangeQuantity(q);
 		hp.title.click();
 	}
 
