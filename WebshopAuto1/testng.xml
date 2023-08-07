@@ -10,6 +10,7 @@
       <class name="com.qa.testcases.TC_HomePage_004"/>
       <class name="com.qa.testcases.TC_ProductDetailsPage_005"/>
       <class name="com.qa.testcases.TC_CategoryPage_006"/>
+      
       <class name="com.qa.testcases.TC_ShoppingCard_007"/>
       
     </classes>
