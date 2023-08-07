@@ -21,7 +21,7 @@ public class CategoryPage extends BaseClass {
 		@FindBy(xpath="//span[@class='cart-qty']")
 		List <WebElement> cartQuantity;
 		
-		//span[@class='cart-qty']..
+		//span[@class='cart-qty']....
 		
 		public void goToCategoryPage() {
 			HomePage hp=new HomePage(driver);
