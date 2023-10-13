@@ -18,7 +18,7 @@ public class BaseClass {
  }
 	@AfterClass 
  public void tearDrop() {
-		//close window
+		//close window 
 	 driver.quit();
 	 
  }
