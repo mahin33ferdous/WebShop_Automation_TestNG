@@ -10,6 +10,26 @@
           <include name="tearDrop"/>
         </methods>
       </class> <!-- com.qa.testcases.TC_RegistrationPage_002 -->
+      <class name="com.qa.testcases.TC_ShoppingCard_007">
+        <methods>
+          <include name="doLogOut"/>
+          <include name="test5"/>
+          <include name="doLogin"/>
+          <include name="setUp"/>
+          <include name="tearDrop"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TC_ShoppingCard_007 -->
+      <class name="com.qa.testcases.TC_CategoryPage_006">
+        <methods>
+          <include name="doLogOut"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="doLogin"/>
+          <include name="setUp"/>
+          <include name="tearDrop"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TC_CategoryPage_006 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
