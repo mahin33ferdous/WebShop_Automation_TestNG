@@ -1,7 +1,8 @@
 testng2.xml
 
+/test-output/
 
-.settings
+/.settings/
 
 pom.xml
 
