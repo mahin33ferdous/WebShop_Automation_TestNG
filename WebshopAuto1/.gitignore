@@ -1,9 +1,8 @@
-testng2.xml
-
 /test-output/
 
-/.settings/
+/.classpath/
 
-pom.xml
 
-.classpath
+
+
+
