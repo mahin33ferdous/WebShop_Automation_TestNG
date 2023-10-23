@@ -58,7 +58,12 @@ Click =>Binaries
 
 **Here is the automation video of the project:** 
 
-![Video](https://screenrec.com/share/ISwGDNhovt)
+**Video Part-1:**
 
 
+https://github.com/mahin33ferdous/WebShop_Selenium_TestNG/assets/108746973/05ba63e8-e7e0-4de2-95f8-23903f60be17
+
+**Video Part-2:**
+
+https://github.com/mahin33ferdous/WebShop_Selenium_TestNG/assets/108746973/9db183a6-4551-4391-93a6-eac490858b28
 
