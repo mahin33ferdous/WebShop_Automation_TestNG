@@ -58,5 +58,7 @@ Click =>Binaries
 
 **Here is the automation video of the project:** 
 
-https://screenrec.com/share/ISwGDNhovt
+![Video](https://screenrec.com/share/ISwGDNhovt)
+
+
 
