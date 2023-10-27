@@ -61,9 +61,12 @@ Click =>Binaries
 **Video Part-1:**
 
 
-https://github.com/mahin33ferdous/WebShop_Selenium_TestNG/assets/108746973/05ba63e8-e7e0-4de2-95f8-23903f60be17
+https://github.com/mahin33ferdous/WebShop_Automation_TestNG/assets/108746973/085766bd-fa50-4a6b-89a8-acad79437cf7
+
+
 
 **Video Part-2:**
 
-https://github.com/mahin33ferdous/WebShop_Selenium_TestNG/assets/108746973/9db183a6-4551-4391-93a6-eac490858b28
+
+https://github.com/mahin33ferdous/WebShop_Automation_TestNG/assets/108746973/69ef8a7d-f614-4ab2-bedf-63fd3cb68805
 
